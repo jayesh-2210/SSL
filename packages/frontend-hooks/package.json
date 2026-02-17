@@ -1,0 +1,13 @@
+{
+    "name": "@sym/frontend-hooks",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.js",
+    "peerDependencies": {
+        "react": "^18.0.0"
+    },
+    "dependencies": {
+        "@sym/frontend-state": "workspace:*"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "@sym/fnd-utils",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.js",
+    "dependencies": {
+        "nanoid": "^5.0.0"
+    }
+}

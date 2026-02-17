@@ -1,0 +1,13 @@
+{
+    "name": "@sym/backend-db",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "src/index.js",
+    "dependencies": {
+        "@sym/fnd-config": "workspace:*",
+        "@sym/fnd-logger": "workspace:*",
+        "mongodb-memory-server": "^11.0.1",
+        "mongoose": "^8.1.0"
+    }
+}

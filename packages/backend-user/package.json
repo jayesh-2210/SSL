@@ -1,0 +1,12 @@
+{
+    "name": "@sym/backend-user",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.js",
+    "dependencies": {
+        "@sym/backend-db": "workspace:*",
+        "@sym/fnd-errors": "workspace:*",
+        "@sym/fnd-logger": "workspace:*"
+    }
+}

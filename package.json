@@ -1,0 +1,32 @@
+{
+  "name": "@sym/root",
+  "version": "0.0.1",
+  "private": true,
+  "description": "SYM — AI-Powered Creative Platform",
+  "scripts": {
+    "dev:frontend": "nx serve sym-frontend",
+    "dev:backend": "nx serve sym-backend",
+    "dev:worker": "nx serve sym-worker",
+    "dev": "nx run-many --target=serve --projects=sym-frontend,sym-backend",
+    "build": "nx run-many --target=build --all",
+    "lint": "nx run-many --target=lint --all",
+    "test": "nx run-many --target=test --all",
+    "graph": "nx graph",
+    "clean": "nx reset && rm -rf node_modules"
+  },
+  "nx": {},
+  "devDependencies": {
+    "nx": "19.8.14"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "mongodb-memory-server",
+      "esbuild",
+      "nx"
+    ]
+  }
+}

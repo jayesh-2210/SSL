@@ -1,0 +1,15 @@
+{
+    "name": "@sym/frontend-feature-ai-studio",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.jsx",
+    "peerDependencies": {
+        "react": "^18.0.0"
+    },
+    "dependencies": {
+        "@sym/frontend-ui": "workspace:*",
+        "@sym/frontend-state": "workspace:*",
+        "@sym/frontend-hooks": "workspace:*"
+    }
+}

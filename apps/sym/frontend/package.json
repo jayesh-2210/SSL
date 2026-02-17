@@ -1,0 +1,32 @@
+{
+    "name": "@sym/sym-frontend",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "serve": "vite --port 5173",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.0",
+        "valtio": "^1.13.0",
+        "socket.io-client": "^4.7.0",
+        "@sym/frontend-ui": "workspace:*",
+        "@sym/frontend-state": "workspace:*",
+        "@sym/frontend-hooks": "workspace:*",
+        "@sym/frontend-feature-auth": "workspace:*",
+        "@sym/frontend-feature-dashboard": "workspace:*",
+        "@sym/frontend-feature-editor": "workspace:*",
+        "@sym/frontend-feature-ai-studio": "workspace:*",
+        "@sym/frontend-feature-media": "workspace:*",
+        "@sym/frontend-feature-collab": "workspace:*",
+        "@sym/frontend-feature-settings": "workspace:*"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.2.0",
+        "vite": "^5.1.0"
+    }
+}

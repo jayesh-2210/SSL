@@ -1,0 +1,15 @@
+{
+    "name": "@sym/backend-auth",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.js",
+    "dependencies": {
+        "jsonwebtoken": "^9.0.0",
+        "bcryptjs": "^2.4.3",
+        "@sym/fnd-config": "workspace:*",
+        "@sym/fnd-errors": "workspace:*",
+        "@sym/fnd-logger": "workspace:*",
+        "@sym/backend-db": "workspace:*"
+    }
+}

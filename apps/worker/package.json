@@ -1,0 +1,21 @@
+{
+    "name": "@sym/sym-worker",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "serve": "node --watch src/index.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@sym/fnd-config": "workspace:*",
+        "@sym/fnd-logger": "workspace:*",
+        "@sym/backend-db": "workspace:*",
+        "@sym/backend-queue": "workspace:*",
+        "@sym/backend-ai-replicate": "workspace:*",
+        "@sym/backend-ai-gemini": "workspace:*",
+        "@sym/backend-media": "workspace:*",
+        "@sym/backend-realtime": "workspace:*"
+    }
+}

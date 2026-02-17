@@ -1,0 +1,32 @@
+{
+    "name": "@sym/sym-backend",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "serve": "node --watch src/index.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.0",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "express-rate-limit": "^7.1.0",
+        "socket.io": "^4.7.0",
+        "@sym/fnd-config": "workspace:*",
+        "@sym/fnd-logger": "workspace:*",
+        "@sym/fnd-errors": "workspace:*",
+        "@sym/fnd-validation": "workspace:*",
+        "@sym/backend-db": "workspace:*",
+        "@sym/backend-auth": "workspace:*",
+        "@sym/backend-user": "workspace:*",
+        "@sym/backend-project": "workspace:*",
+        "@sym/backend-ai-replicate": "workspace:*",
+        "@sym/backend-ai-gemini": "workspace:*",
+        "@sym/backend-storage": "workspace:*",
+        "@sym/backend-realtime": "workspace:*",
+        "@sym/backend-queue": "workspace:*"
+    }
+}

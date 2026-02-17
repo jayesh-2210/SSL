@@ -1,0 +1,12 @@
+{
+    "name": "@sym/backend-storage",
+    "version": "0.0.1",
+    "private": true,
+  "type": "module",
+    "main": "src/index.js",
+    "dependencies": {
+        "multer": "^1.4.5-lts.1",
+        "@sym/fnd-config": "workspace:*",
+        "@sym/fnd-logger": "workspace:*"
+    }
+}
